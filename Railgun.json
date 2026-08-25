@@ -1,0 +1,23 @@
+
+
+
+{
+"ID": "Railgun",
+"DisplayName": "Railgun",
+"Damage": 1200,
+"ROF": 30,
+"Range": 120,
+"Accuracy": 0.95,
+"Projectile": {
+  "Speed": 200,
+  "Lifetime": 0.6,
+  "Size": 0.3,
+  "Trail": "Electric_Trail"
+},
+"Effects": {
+  "OnHit": {
+    "DamageType": "Kinetic"
+  },
+  "ImpactEffect": "Sparks_Impact"
+}
+}

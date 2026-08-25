@@ -1,0 +1,32 @@
+
+{
+  "_Doc": {
+    "Purpose": "Reefback primary weapon.",
+    "DesignRole": "Anti-infantry and light vehicle weapon.",
+    "Notes": [
+        "High rate of fire.",
+        "Moderate damage.",
+        "Limited heavy armor penetration."
+    ]
+  },
+
+
+  "ID": "30mm_Autocannon",
+  "DisplayName": "30mm Autocannon",
+  "Damage": 320,
+  "RateOfFire": 200,
+  "Range": 80,
+  "Accuracy": 0.8,
+  "Projectile": {
+    "Speed": 120,
+    "Lifetime": 0.5,
+    "Size": 0.2,
+    "Trail": "Smoke_Trail"
+  },
+  "Effects": {
+    "OnHit": {
+      "DamageType": "Kinetic"
+    },
+    "ImpactEffect": "Sparks_Impact"
+  }
+}

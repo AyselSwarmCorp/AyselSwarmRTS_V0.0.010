@@ -1,0 +1,53 @@
+
+
+{
+    "_Note": {
+  "Description": "Trigger Effects define actions that occur in response to specific events or conditions.",
+  "Purpose": "Each trigger effect has an ID, display name, and parameters that determine activation.",
+  "TriggerExamples": [
+    "EveryNAttacks",
+    "EveryNSeconds",
+    "OnAttack",
+    "OnHit",
+    "OnKill",
+    "OnDeath",
+    "OnSpawn"
+    ]
+},
+"_Doc": {
+        "Purpose": "Defines the Crow Commander's trigger-based spawning behavior.",
+        "Category": "Summon Modifier",
+        "Author": "Justin",
+        "LastUpdated": "2026-08-24",
+
+        "DesignNotes": [
+            "Crow units act as temporary damage satellites.",
+            "The trigger activates every 10 attacks.",
+            "Crows remain active for 5 seconds.",
+            "A maximum of 10 active Crows prevents unlimited spawning."
+        ],
+
+        "FutureIdeas": [
+            "Crow King upgrade",
+            "Different Crow behaviors",
+            "Crow scaling from host weapon damage",
+            "Possible Ethereal variants"
+        ]
+    },
+
+    "ID": "Crow_Commander",
+    "DisplayName": "Crow Commander",
+
+    "Trigger": { "Type": "EveryNAttacks", "Count": 10
+    },
+
+    "Effect": { "Type": "Spawn", "Entity": "Crow", "Count": 1
+    },
+
+    "Crow": { "Lifetime": 5, "AttackInterval": 1, "Radius": 20, "DamageMultiplier": 0.5
+    },
+
+    "Limits": {
+        "MaxActive": 10
+    }
+}

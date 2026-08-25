@@ -1,0 +1,12 @@
+
+
+
+{
+    "Frostfire_Multishot": {
+        "Name": "Frostfire Multishot",
+        "Type": "WeaponModifier",
+
+        "ProjectileCount": 4,
+        "Accuracy": 0.40
+    }
+}

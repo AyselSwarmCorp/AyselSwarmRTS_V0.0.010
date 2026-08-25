@@ -1,0 +1,16 @@
+ 
+ 
+ 
+ 
+{
+ "DealDamageOvertimeToTargetEqualToBaseHP": 3.3,
+ "DealDamageOvertimeToTargetEqualToBaseDamage": 3.3, 
+ "DamageReductionFromBaseHP": 3.3,
+ "DamageReductionFromBaseArmor": 3.3,
+ "DamageReductionFromBaseShield": 3.3,
+ "DamageBonusFromBaseRegen": 3.3,
+ "DamageBonusFromBaseFireRate": 3.3,
+ "DamageBonusFromBaseLifesteal": 3.3,
+ "DamageBonusFromBaseHealingEffectivness": 3.3,
+ "ShieldRegenConstantFromBaseShield": 3.3
+}

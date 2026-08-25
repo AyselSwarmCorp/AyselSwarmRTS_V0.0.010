@@ -1,0 +1,38 @@
+
+{
+ "_Doc": {
+    "Purpose": "Tarragon wheeled frontline IFV.",
+    "DesignRole": "Mobile frontline vehicle.",
+    "Notes": [
+        "Good mobility.",
+        "Moderate armor.",
+        "Designed to fight infantry and light vehicles."
+    ]
+},
+
+ "ID": "Reefback_IFV",
+ "DisplayName": "Reefback IFV",
+ "Faction": "Tarragon",
+ "Role": "Frontline",
+ "Class": "IFV",
+ "Tags": ["Vehicle", "Armored", "Frontline", "Wheeled"],
+
+ "Health": { "MaxHP": 2400, "Regen": 250, "Delay": 0 },
+ "Defense": { "Armor": 120, "MaxShield": 0, "ShieldRechargeRate": 0, "ShieldRechargeDelay": 0 },
+ "Mobility": { "Speed": 8.5, "TurnRateTurret": 110, "HullTurnRate": 60 },
+ "Sensors": { "Vision": 64, "Range": 40, "StealthDetection": 0, "Radar": 85 },
+
+ "Weapons": {
+ "Primary": "30mm_Autocannon"
+ },
+
+ "AI": {
+ "Priority": ["Light_Vehicle", "Infantry", "Point_Defense"]
+ },
+
+ "Capabilities": ["Fire_On_Move", "Has_Turret", "Capture_Objectives"]
+}
+
+
+ 
+     

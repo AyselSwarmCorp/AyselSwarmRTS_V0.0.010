@@ -1,0 +1,71 @@
+{
+  "EtherealMastery": {
+    "Max_Level": 133744,
+    "Points_Per_Level": 1,
+
+
+    "Scaling": {
+
+      "Flat": {
+        "HP": 0.50,
+        "HP_Regen": 0.25,
+        "Damage": 0.50,
+        "Shield": 0.50
+      },
+
+      "Percent": {
+        "FireRate": 0.05,
+        "Lifesteal": 0.05,
+        "Healing_Effectiveness": 0.05,
+        "Armor": 0.05,
+        "Shield_Regen": 0.05,
+
+        "Crit_Chance": 0.05,
+        "OnHitAilmentChanceOfWeapon_Main": 0.05,
+        "OnHitAilmentChanceOfWeapon_Secondary": 0.05,
+        "Ailment_Chance": 0.05,
+        "Dodge": 0.05,
+        "MoveSpeed": 0.05,
+        "DoubleCrit": 0.05,
+
+        "HealOnKill": 0.05,
+        "RegenDamageTaken": 0.05,
+        "MoveBonusWhenDamaged": 0.05,
+        "DamageReductionFromBaseHP": 0.05,
+        "DamageReductionFromBaseArmor": 0.05,
+        "DamageReductionFromBaseShield": 0.05
+      }
+    },
+
+    "EtherealRankCaps": {
+      "Lifesteal": 3.5,
+      "HP_Regen": 3.5,
+      "Crit_Chance": 3.5,
+
+      "OnHitAilmentChanceOfWeapon_Main": 3.5,
+      "OnHitAilmentChanceOfWeapon_Secondary": 3.5,
+      "Ailment_Chance": 3.5,
+
+      "Dodge": 3.5,
+      "MoveSpeed": 3.5,
+      "FireRate": 3.5,
+      "DoubleCrit": 3.5,
+
+      "Max_HP_Bonus": 3.5,
+      "RegenDamageTaken": 3.5,
+
+      "Healing_Effectiveness": 33,
+
+      "HealOnKill": 3.5,
+      "ArmorMaxCapBonus": 3.5,
+      "ShieldMaxCapBonus": 3.5,
+
+      "MoveBonusWhenDamaged": 3.5,
+      "DamageReductionFromBaseHP": 3.5,
+      "DamageReductionFromBaseArmor": 3.5,
+      "DamageReductionFromBaseShield": 3.5
+    }
+  }
+}
+
+
