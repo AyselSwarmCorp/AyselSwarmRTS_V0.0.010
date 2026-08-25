@@ -1,0 +1,27 @@
+# { } → dictionary → labeled data
+# [ ] → list → collection/order of things
+# ( ) → function calls / other structures
+# { }  = DATA CONTAINER
+
+# "HP": 15000
+# = KEY + VALUE
+# [ ]  = GET SOMETHING FROM THE DATA
+# =    = SET the value
+# -=   = TAKE AWAY
+# +=   = ADD
+
+# So when you see:
+
+# crab_mech["HP"] -= 100
+
+# read it like English:
+
+# Crab Mech → HP → subtract 100.
+
+# And:
+
+# crab_mech["HP"] += 300
+
+# means:
+
+# Crab Mech → HP → add 300.
