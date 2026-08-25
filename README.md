@@ -1,67 +1,20 @@
+3. Personal Founder Tone (includes your contact)
+Aysel Swarm RTS JSON Combat Engine (Prototype) Most Likely would be moved into Unreal with a dedicated Investor, Developer, Engineer and Studio or Team.
+=========================================================
+This is the early development version of the Aysel Swarm RTS engine — a modular, JSON‑driven system where units, weapons, triggers, effects, and modifiers are all defined through data instead of hard‑coded logic. I’m extremely new to coding, and most of this project has been built with the help of AI tools while I learn programming fundamentals.
 
+The goal is to create a scalable RPG‑RTS hybrid unlike anything currently on the market, with emergent combat behavior and deep faction identity.
 
+Current systems include:
 
-GLACIER GUARD
-Mastery: 13,000
-        │
-        ├── Base Stats
-        │
-        ├── Commander Deck
-        │      └── 20 Mods
-        │
-        ├── Army Deck
-        │      └── 20 Mods
-        │
-        └── Shards
-               ├── Slot 1
-               ├── Slot 2
-               ├── Slot 3
-               ├── Slot 4
-               └── Slot 5
+JSON‑based unit definitions
 
+Modular weapon and projectile systems
 
-# Aysel Combat Simulator
+Behavior‑driven trigger effects
 
-This project is a tiny Python prototype for the kind of systemic combat engine I want to investigate for Aysel Swarm.
+Python combat simulation
 
-The goal is small, honest, and useful: build a prototype that shows the core logic of the idea, not a polished game.
+Early stat and modifier frameworks
 
-## What this demonstrates
-
-- Unit data as a dictionary of stats
-- Simple stat modifiers
-- Total HP, damage, and DPS calculations for a battle
-- A basic event system: trigger + condition + effect
-- A card-like data structure representing a rules-driven ability
-
-## The mental model
-
-The core idea is:
-
-> Something happened -> check a condition -> produce an effect.
-
-That is the foundation of the eventual Aysel combat engine.
-
-## Example flow
-
-1. Unit: Crab Mech
-2. Stats: HP, Damage, Fire Rate, Regen, Armor, Shield
-3. Modifier: +1000 HP, +10 HP/s, +15% Fire Rate
-4. Event: Damage Received
-5. Condition: HP < 40%
-6. Effect: Heal 10%
-7. Result: HP is restored and the card enters cooldown
-
-This is the beginning of a systemic combat design, not a full RTS or game implementation.
-
-## How to run
-
-From the project folder:
-
-```bash
-python main.py
-```
-
-## Why Python for Week 1
-
-Python is a fast and friendly way to prototype game systems. It makes it easy to iterate quickly while learning logic, math, and data-driven design.
+If you want to collaborate, give feedback, or just follow the project, you can reach me directly on Facebook — Justin Draxx.
